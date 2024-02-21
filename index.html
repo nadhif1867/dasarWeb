@@ -1,79 +1,99 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Grid</title>
+        <title>Tugas</title>
         <style>
-            body,
-            html{
+            html,
+            body{
                 margin: 0;
                 padding: 0;
-                font-size: 20px;
-                font-family: arial;
-                color: white;
-                text-transform: uppercase;
-                text-align: center;
             }
 
-            .container{
-                width: 600px;
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #cdb4db;
+                line-height: 1.65;
+                padding-bottom: 1000px;
+            }
+
+            .img{
+                width: 30px;
+                height: 30px;
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+            }
+
+            .bg{
+                width: 1000px;
                 margin: 50px auto;
-                border: 5px solid #333;
+                background-color: #ffe45e;
+                padding: 50px;
                 box-sizing: border-box;
-                padding: 5px;
-                display: grid;
-                grid-template-areas: "header header"
-                    "aside main"
-                    "nav main"
-                    "footer footer";
-                grid-template-columns: 1fr 1.5fr;
-                grid-template-rows: 1fr 1fr 1.3fr;
-            }
-
-            header{
-                grid-area: header;
-                background-color: #B063D8;
                 display: flex;
-                justify-content: center;
-                align-items: center;
             }
 
-            aside{
-                grid-area: aside;
-                background-color: #2F93FF;
-                padding: 60px 0;
+            .sidebar-satu{
+                text-align: center;
+                margin-right: 50px;
             }
 
-            nav{
-                grid-area: nav;
-                background-color: #E45765;
-                padding: 100px 0;
+            .artikel{
+                text-align: left;
+                margin-right: 50px;
             }
 
-            main{
-                grid-area: main;
-                background-color: #E0AA77;
-                box-sizing: border-box;
-                flex: 1.5;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
-            footer{
-                grid-area: footer;
-                background-color: #666;
-                padding: 20px 0;
+            .sidebar-dua{
+                text-align: left;
             }
         </style>
     </head>
     <body>
-        <div class="container">
-            <header>Header</header>
-            <aside>Aside</aside>
-            <nav>Nav</nav>
-            <main>Main</main>
-            <footer>Footer</footer>
+        <center><img src="img/lakers.jpeg"></center>
+        <!-- Sidebar Satu -->
+        <div class="bg">
+            <div class="sidebar-satu">
+                <h2>Sidebar Satu</h2>
+                <ul type="disc">
+                    <li><a href="">Link 1</a></li>
+                    <li><a href="">Link 2</a></li>
+                    <li><a href="">Link 3</a></li>
+                    <li><a href="">Link 4</a></li>
+                    <li><a href="">Link 5</a></li>
+                </ul>
+            </div>
+
+            <!-- Main Box -->
+            <div class="artikel">
+                <h2>Judul Artikel</h2>
+                <p>Lorem ipsum dolor sit amet, consectur adisoicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>nec ullamcorper sit amet risus eget felis eget nunc
+                    lobortis mattis aliquam faucibus purus in massa tempor nec
+                    feugiat nisl pretium fusce id velit ut tortor pretium viverra
+                    suspendisse potenti nullam ac tortor vitae purus faucibus omare
+                    suspendisse sed nisi lacus sed viverra tellus.
+                </p>
+                <p>cum sociis natoque penatibus et magins dis parturient montes
+                    nascetur ridiculus mus mauris vitae ultricies
+                </p>
+            </div>
+
+            <!-- Sidebar Dua -->
+            <div class="sidebar-dua">
+                <h2>Sidebar Dua</h2>
+                <p>Duis ex mollit tempor. Ad anim reprehenderit in laborum dolor id
+                    aliqua dolore do fugiat sunt amet amet eu ullamco ut. Ea doloreest aliquip.
+                    Nulla sunt culpa nisi nulla sed deserunt elit aute deserunt incididunt 
+                    laborum duis mollit in in magna
+                </p>
+            </div>
         </div>
     </body>
-
 </html>
