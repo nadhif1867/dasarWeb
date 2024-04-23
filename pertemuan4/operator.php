@@ -14,11 +14,11 @@ $pangkat = $a ** $b;
 echo "";
 echo "<h2> Aritmatika </h2>";
 echo "Hasil Tambah = {$hasilTambah} <br>";
-echo "Hasil Kurang = {$hasilTambah} <br>";
-echo "Hasil Kali   = {$hasilTambah} <br>";
-echo "Hasil Bagi   = {$hasilTambah} <br>";
-echo "Sisa Bagi    = {$hasilTambah} <br>";
-echo "Pangkat      = {$hasilTambah} ";
+echo "Hasil Kurang = {$hasilKurang} <br>";
+echo "Hasil Kali   = {$hasilKali} <br>";
+echo "Hasil Bagi   = {$hasilBagi} <br>";
+echo "Sisa Bagi    = {$sisaBagi} <br>";
+echo "Pangkat      = {$pangkat} ";
 echo "<hr>";
 
 // pembanding
