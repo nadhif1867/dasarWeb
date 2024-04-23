@@ -1,57 +1,57 @@
 <?php 
     // fungsi
 
-    /*function perkenalan(){
-        echo "Assalamualaikum, ";
-        echo "Perkenalkan, nama saya Nadhif <br/>";
-        echo "Senang berkenalan dengan anda <br/>";
-    }
+    // function perkenalan(){
+    //     echo "Assalamualaikum, ";
+    //     echo "Perkenalkan, nama saya Nadhif <br/>";
+    //     echo "Senang berkenalan dengan anda <br/>";
+    // }
 
-    perkenalan();
-    perkenalan();*/
+    // perkenalan();
+    // perkenalan();
 
     // fungsi parameter
 
-    /*function perkenalan ($nama, $salam){
-        echo $salam. ", ";
-        echo "Perkenalkan, nama saya " .$nama. "<br/>";
-        echo "Senang berkenalan dengan Anda<Br/>";
-    }
+    // function perkenalan ($nama, $salam){
+    //     echo $salam. ", ";
+    //     echo "Perkenalkan, nama saya " .$nama. "<br/>";
+    //     echo "Senang berkenalan dengan Anda<Br/>";
+    // }
 
-    perkenalan("Hamdana", "Halo");
+    // perkenalan("Hamdana", "Halo");
 
-    echo "<hr>";
+    // echo "<hr>";
 
-    $saya = "Nadhif";
-    $ucapanSalam = "Selamat pagi";
+    // $saya = "Nadhif";
+    // $ucapanSalam = "Selamat pagi";
 
-    perkenalan($saya, $ucapanSalam);*/
+    // perkenalan($saya, $ucapanSalam);
 
     // parameter default
 
-    /*function perkenalan ($nama, $salam="Assalamualaikum"){
-        echo $salam. ", ";
-        echo "Perkenalkan, nama saya " .$nama. "<br/>";
-        echo "Senang berkenalan dengan Anda<Br/>";
-    }
+    // function perkenalan ($nama, $salam="Assalamualaikum"){
+    //     echo $salam. ", ";
+    //     echo "Perkenalkan, nama saya " .$nama. "<br/>";
+    //     echo "Senang berkenalan dengan Anda<Br/>";
+    // }
 
-    perkenalan("Hamdana", "Halo");
+    // perkenalan("Hamdana", "Halo");
 
-    echo "<hr>";
+    // echo "<hr>";
 
-    $saya = "Nadhif";
-    $ucapanSalam = "Selamat pagi";
+    // $saya = "Nadhif";
+    // $ucapanSalam = "Selamat pagi";
 
-    perkenalan($saya);*/
+    // perkenalan($saya);
 
     // fungsi mengembalikan nilai
 
-    /*function hitungUmur($thn_lahir, $thn_sekarang){
-        $umur = $thn_sekarang - $thn_lahir;
-        return $umur;
-    }
+    // function hitungUmur($thn_lahir, $thn_sekarang){
+    //     $umur = $thn_sekarang - $thn_lahir;
+    //     return $umur;
+    // }
 
-    echo "Umur saya adalah ". hitungUmur(2004, 2023). " tahun"*/
+    // echo "Umur saya adalah ". hitungUmur(2004, 2023). " tahun"
 
     //fungsi dalam fungsi
 

@@ -1,25 +1,29 @@
 <?php
-    /*function tampilkanHaloDunia(){
-        echo "Halo dunia! <br>";
+    // 1
+    // function tampilkanHaloDunia(){
+    //     echo "Halo dunia! <br>";
 
-        tampilkanHaloDunia();
-    }
+    //     tampilkanHaloDunia();
+    // }
 
-    tampilkanHaloDunia();*/
+    // tampilkanHaloDunia();
 
-    /*for($i=1; $i<=25; $i++){
-        echo "Perulangan ke- {$i} <br>";
-    }*/
+    //2
+    // for($i=1; $i<=25; $i++){
+    //     echo "Perulangan ke- {$i} <br>";
+    // }
 
-    /*function tampilkanAngka (int $jumlah, int $indeks = 1){
-        echo "Perulangan ke-{$indeks} <br>";
+    // 3
+    // function tampilkanAngka (int $jumlah, int $indeks = 1){
+    //     echo "Perulangan ke-{$indeks} <br>";
 
-        if ($indeks < $jumlah){
-            tampilkanAngka($jumlah, $indeks + 1);
-        }
-    }
-    tampilkanAngka(20);*/
+    //     if ($indeks < $jumlah){
+    //         tampilkanAngka($jumlah, $indeks + 1);
+    //     }
+    // }
+    // tampilkanAngka(20);
 
+    // 4
     $menu = [
         [
             "nama" => "Beranda"
